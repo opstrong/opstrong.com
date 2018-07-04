@@ -18,7 +18,8 @@
       <div class="container">
         <div class="hero-copy">
           <h3 class="mb-32">CHRIS ARMSTRONG</h3>
-          <h1 class="hero-headline">Technical leadership<br>coaching and consulting</h1>
+          <h1 class="hero-headline mb-32">Technical leadership<br>coaching and consulting</h1>
+          <button class="btn btn-outline-light js-scroll-into-contact">CONTACT ME</button>
         </div>
       </div>
     </div>
@@ -35,43 +36,45 @@
 
     <div class="container">
 
-      <div class="row mb-128">
-        <div class="col-md-12 col-lg-4">
-          <div class="card-white">
-            <div class="mb-32">
-              <img src="assets/technology_graphic.svg">
-            </div>
-            <h2 class="mb-16">Technology</h2>
-            <p class="lead">Architectural strategy<br>(interim CTO / VP Engineering)</p>
-            <p>Helping assess technology choices and architectural decisions</p>
+      <div class="card-deck mb-128">
+        <div class="card card-white">
+          <img class="card-img-top technology-graphic" src="assets/technology_graphic.svg" alt="Technology">
+          <div class="card-body">
+            <h5 class="card-title">Technology</h5>
+            <p class="card-text">Architectural strategy (interim CTO / VP Engineering)</p>
+            <p class="card-text"><small class="text-muted">Helping assess technology choices and architectural decisions</small></p>
           </div>
         </div>
-        <div class="col-md-12 col-lg-4">
-          <div class="card-white">
-            <div class="mb-32">
-              <img src="assets/process_graphic.svg">
-            </div>
-            <h2 class="mb-16">Process</h2>
-            <p class="lead">Technical process and streamlined execution</p>
-            <ul>
-              <li>Rapid iteration</li>
-              <li>Make business and technical teams</li>
-              <li>Standups, etc.</li>
-            </ul>
+        <div class="card card-white">
+          <img class="card-img-top process-graphic" src="assets/process_graphic.svg" alt="Process">
+          <div class="card-body">
+            <h5 class="card-title">Process</h5>
+            <p class="card-text">Technical process and streamlined execution</p>
+            <p class="card-text">
+              <small class="text-muted">
+                <ul>
+                  <li>Rapid iteration</li>
+                  <li>Make business and technical teams</li>
+                  <li>Standups, etc.</li>
+                </ul>
+              </small>
+            </p>
           </div>
         </div>
-        <div class="col-md-12 col-lg-4">
-          <div class="card-white">
-            <div class="short-graphic">
-              <img src="assets/people_graphic.svg">
-            </div>
-            <h2 class="mb-16">People</h2>
-            <p class="lead">People strategy and organizational health<br>(How do we grow)</p>
-            <ul>
-              <li>Mentorship and coaching -- giving confidence to bounce ideas off of </li>
-              <li>Recruiting strategy and process </li>
-              <li>Job descriptions</li>
-            </ul>
+        <div class="card card-white">
+          <img class="card-img-top people-graphic" src="assets/people_graphic.svg" alt="People">
+          <div class="card-body">
+            <h5 class="card-title">People</h5>
+            <p class="card-text">People strategy and organizational health (How do we grow)</p>
+            <p class="card-text">
+              <small class="text-muted">
+                <ul>
+                  <li>Mentorship and coaching -- giving confidence to bounce ideas off of </li>
+                  <li>Recruiting strategy and process </li>
+                  <li>Job descriptions</li>
+                </ul>
+              </small>
+            </p>
           </div>
         </div>
       </div>
@@ -94,7 +97,7 @@
           <h2 class="mb-64">What I offer your organization</h2>
         </div>
 
-        <div class="col-lg-5 mb-64">
+        <div class="col-md-8 col-lg-5 mb-64">
           <h3 class="header-accent mb-64">Services</h3>
           <ul class="services-list">
             <li>
@@ -116,7 +119,7 @@
           </ul>
         </div>
 
-        <div class="col-lg-6 offset-lg-1 mb-64">
+        <div class="col-md-8 col-lg-6 offset-lg-1 mb-64">
           <h3 class="header-accent mb-64">Specialties</h3>
           <ul class="specialties-list">
             <li><p class="lead mb-0"><span class="icon-bullet-red"><img src="assets/icon_bullet_red.svg"></span> People-first approach to leadership</p></li>
@@ -127,12 +130,15 @@
         </div>
       </div>
 
-      <div class="row mb-128">
+      <div id="contact" class="row mb-128">
         <div class="col-md-12">
           <div class="card-red">
-            <h2 class="header-accent mb-64">Contact me and we’ll asses a fit<br> with your team</h2>
+            <h2 class="header-accent mb-64">Contact me and we’ll asses a fit<br class="d-none d-lg-block"> with your team</h2>
             <!-- TODO: no one uses mailto...make this copy on click -->
-            <h2><a href="" class="link-strong">chris@opstrong.com</a></h2>
+            <h2><a href="" class="link-strong">chris@opstrong.com</a><span class="contact">
+              <button type="button" class="btn btn-link btn-sm btn-copy js-tooltip js-copy" data-toggle="tooltip" data-placement="bottom" data-copy="chris@opstrong.com" title="Copy to clipboard">COPY EMAIL
+              </button>
+            </span></h2>
           </div>
         </div>
       </div>
@@ -144,5 +150,68 @@
     <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.min.js" integrity="sha384-ZMP7rVo3mIykV+2+9J3UJ46jBk0WLaUAdn689aCwoqbBJiSnjAK/l8WvCWPIPm49" crossorigin="anonymous"></script>
     <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.1/js/bootstrap.min.js" integrity="sha384-smHYKdLADwkXOn1EmN1qk/HfnUcbVRZyYmZ4qpPea6sjB/pTJ0euyQp0Mk8ck+5T" crossorigin="anonymous"></script>
+    <!-- Smooth scroll to contact info -->
+    <script type="text/javascript">
+      // add event listener on load
+      window.addEventListener('load', function() {
+      
+        // scroll into view
+        document.querySelector('.js-scroll-into-contact').addEventListener('click', function(e) {
+          e.preventDefault();
+          document.querySelector('#contact').scrollIntoView({ behavior: 'smooth' });
+        });
+
+      });
+    </script>
+    <!-- Copy email -->
+    <script type="text/javascript">
+      // COPY TO CLIPBOARD
+      // Attempts to use .execCommand('copy') on a created text field
+      // Falls back to a selectable alert if not supported
+      // Attempts to display status in Bootstrap tooltip
+      // ------------------------------------------------------------------------------
+
+      function copyToClipboard(text, el) {
+        var copyTest = document.queryCommandSupported('copy');
+        var elOriginalText = el.attr('data-original-title');
+
+        if (copyTest === true) {
+          var copyTextArea = document.createElement("textarea");
+          copyTextArea.value = text;
+          document.body.appendChild(copyTextArea);
+          copyTextArea.select();
+          try {
+            var successful = document.execCommand('copy');
+            var msg = successful ? 'Copied!' : 'Whoops, not copied!';
+            el.attr('data-original-title', msg).tooltip('show');
+          } catch (err) {
+            console.log('Oops, unable to copy');
+          }
+          document.body.removeChild(copyTextArea);
+          el.attr('data-original-title', elOriginalText);
+        } else {
+          // Fallback if browser doesn't support .execCommand('copy')
+          window.prompt("Copy to clipboard: Ctrl+C or Command+C, Enter", text);
+        }
+      }
+
+      $(document).ready(function() {
+        // Initialize
+        // ---------------------------------------------------------------------
+
+        // Tooltips
+        // Requires Bootstrap for functionality
+        $('.js-tooltip').tooltip();
+
+        // Copy to clipboard
+        // Grab any text in the attribute 'data-copy' and pass it to the 
+        // copy function
+        $('.js-copy').click(function() {
+          var text = $(this).attr('data-copy');
+          var el = $(this);
+          copyToClipboard(text, el);
+        });
+      });
+    </script>
   </body>
 </html>

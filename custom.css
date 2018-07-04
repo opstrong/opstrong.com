@@ -27,12 +27,30 @@ h3 {
 h4 {
 	font-size: 1.25rem;
 	line-height: 1.5;
+	margin-bottom: 1rem;
 }
 ul {
 	padding-left: 1rem;
 }
 .lead {
 	font-weight: bold;
+}
+.btn {
+	font-family: 'Poppins', sans-serif;
+	letter-spacing: 1px;
+}
+.btn-outline-light {
+	padding: .75rem 1.75rem
+}
+.btn-link {
+	color: #343a40;
+}
+.btn-link:hover {
+	color: #23272b;
+}
+::selection {
+	color: #FFFFFF;
+  background: #FF5252;
 }
 /* HERO */
 .hero {
@@ -61,32 +79,58 @@ ul {
 	box-shadow: 8px 8px 16px 0 rgba(0,0,0,0.20);
 	padding: 2rem;
 }
-@media (min-width: 768px) {
+@media (min-width: 992px) {
 	.card-red {
-		padding: 4rem;
+		padding: 6rem;
 	}
 }
 .card-red .lead {
 	font-size: 1.25rem;
 	font-weight: 500;
 }
-.short-graphic {
-	margin-top: 24px;
-	margin-bottom: 40px;
-}
-@media (min-width: 1200px) {
+@media (min-width: 992px) {
 	.card-red .lead {
-		font-size: 3rem;
+		font-size: 2.25rem;
 	}
 }
 .card-white {
 	background-color: #FFFFFF;
 	box-shadow: 4px 4px 8px 0 rgba(0,0,0,0.20);
+	border-radius: 0;
+	border: none;
 	border-bottom: 8px solid #FF5252;
 	padding: 2rem;
-	margin-bottom: 4rem;
 }
-
+.card-deck {
+	display: -ms-flexbox;
+	display: flex;
+	-ms-flex-direction: column;
+	flex-direction: column;
+}
+@media (min-width: 992px) {
+	.card-deck {
+		-ms-flex-flow: row wrap;
+		flex-flow: row wrap;
+	}
+}
+.card-deck .card {
+	margin-bottom: 2rem;
+}
+@media (min-width: 992px) {
+	.card-deck .card {
+		margin-bottom: 0;
+	}
+}
+/* PILLARS */
+.technology-graphic,
+.process-graphic,
+.people-graphic {
+	max-width: 96px;
+}
+.people-graphic {
+	margin-top: 8px;
+	margin-bottom: 8px;
+}
 /* OFFERINGS */
 .services-list,
 .specialties-list {
@@ -119,12 +163,19 @@ ul {
 	margin-top: -4rem;
 }
 .header-accent {
-	padding-bottom: 1rem;
-	border-bottom: 4px solid #FF5252;
 	margin-bottom: 4rem;
 }
-.card-red .header-accent {
-	border-color: #FFFFFF;
+.header-accent:after {
+	background: none repeat scroll 0 0 #FF5252;
+	bottom: -1rem;
+	content: "";
+	display: block;
+	height: 4px;
+	position: relative;
+	width: 4rem;
+}
+.card-red .header-accent:after {
+	background-color: #FFFFFF;
 }
 .link-strong {
 	color: white;
