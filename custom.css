@@ -24,6 +24,13 @@ h3 {
 	font-size: 1.5rem;
 	line-height: 1.5;
 }
+h4 {
+	font-size: 1.25rem;
+	line-height: 1.5;
+}
+ul {
+	padding-left: 1rem;
+}
 .lead {
 	font-weight: bold;
 }
@@ -39,19 +46,33 @@ h3 {
 .hero-copy {
 	color: #FFFFFF;
 }
-.hero-copy-name {
-	margin-bottom: 2rem;
+.hero-headline {
+	font-size: 1.75rem;
+}
+@media (min-width: 1200px) {
+	.hero-headline {
+		font-size: 2.5rem;
+	}
 }
 /* CARDS */
 .card-red {
 	color: #FFFFFF;
 	background-color: #FF5252;
 	box-shadow: 8px 8px 16px 0 rgba(0,0,0,0.20);
-	padding: 4rem;
+	padding: 2rem;
+}
+@media (min-width: 768px) {
+	.card-red {
+		padding: 4rem;
+	}
 }
 .card-red .lead {
-	font-size: 1.5rem;
+	font-size: 1.25rem;
 	font-weight: 500;
+}
+.short-graphic {
+	margin-top: 24px;
+	margin-bottom: 40px;
 }
 @media (min-width: 1200px) {
 	.card-red .lead {
@@ -63,20 +84,47 @@ h3 {
 	box-shadow: 4px 4px 8px 0 rgba(0,0,0,0.20);
 	border-bottom: 8px solid #FF5252;
 	padding: 2rem;
+	margin-bottom: 4rem;
 }
+
 /* OFFERINGS */
+.services-list,
 .specialties-list {
 	list-style: none;
 	padding: 0;
+}
+.services-list li {
+	margin-bottom: 4rem;
+}
+.services-list li:last-of-type {
+ margin-bottom: 0;
 }
 .specialties-list li {
 	padding-bottom: 1.5rem;
 	margin-bottom: 1.5rem;
 	border-bottom: 1px solid rgba(0,0,0,.12);
 }
+.specialties-list li:last-of-type {
+	border-bottom: none;
+}
+/* ICONS */
+.icon-check-red {
+	margin-left: .5rem;
+}
+.icon-bullet-red {
+	margin-right: .5rem;
+}
 /* UTILITIES */
 .overlap {
 	margin-top: -4rem;
+}
+.header-accent {
+	padding-bottom: 1rem;
+	border-bottom: 4px solid #FF5252;
+	margin-bottom: 4rem;
+}
+.card-red .header-accent {
+	border-color: #FFFFFF;
 }
 .link-strong {
 	color: white;
@@ -92,9 +140,11 @@ h3 {
 	background-color: #FF8686;
 }
 /* WHITESPACE */
+.mb-0   {margin-bottom: 0;}
 .mb-16  {margin-bottom: 1rem;}
 .mb-32  {margin-bottom: 2rem;}
 .mb-64  {margin-bottom: 4rem;}
+.mb-96  {margin-bottom: 6rem;}
 .mb-128 {margin-bottom: 8rem;}
 
 /* Extra small devices (portrait phones, less than 576px) */
