@@ -1,4 +1,3 @@
-/* TODO: See if you can remove a weight or two for the sake of loadtime */
 /* Load in typefaces first */
 @import url('https://fonts.googleapis.com/css?family=Poppins:700|Spectral:500,700');
 
@@ -56,6 +55,7 @@ ul {
 .hero {
 	height: 90vh;
 	padding-top: 6rem;
+	background-color: #000000; /* fallback if img doesnt load */
 	background-image: url(assets/chris_hero_optimized.jpg);
 	background-size: cover;
 	background-repeat: no-repeat;
