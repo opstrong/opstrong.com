@@ -56,7 +56,7 @@ ul {
 	height: 90vh;
 	padding-top: 6rem;
 	background-color: #000000; /* fallback if img doesnt load */
-	background-image: url(assets/chris_hero_BW.jpg);
+	background-image: url(assets/chris_hero_color.jpg);
 	background-size: cover;
 	background-repeat: no-repeat;
 	background-position: center;
