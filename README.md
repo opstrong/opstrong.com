@@ -38,3 +38,5 @@ What do we call these on the site? Testimonials? References?
 - Chris has been instrumental in bringing structure to our engineering organization. His vision to see the current structure of the company and improving it has led to more scalable work processes, better defined responsibilities, and happier employees. His strength derives from how much he cares about empowering his employees by helping them to set their own technical direction as well as direction for personal growth. - Kenny Daniel, Founder and CTO, Algorithmia
 
 - Chris is a people first manager who strategically thinks about placing technical resources in the right team structure. This can be invaluable in high growth scenarios. - Diego Oppenheimer, Founder and CEO, Algorithmia
+
+- Chris has a gift for identifying strengths and helping teams form around those strengths. By helping my team members identify their goals, passions, and motivations, he set my team in motion. We are not just a high-performing team; we're a team that loves working together. - Matt Butcher, Principal Software Development Engineer, Microsoft
