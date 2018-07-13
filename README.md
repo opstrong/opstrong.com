@@ -5,9 +5,9 @@ My personal coaching and consulting website: http://opstrong.com/
 ## TODOs
 
 ### Bugs
-- [ ] Mobile: Header image only shows my arm
-- [ ] Mobile: Awkward breaking of text mid-paragraph
-- [ ] Mobile: Copy email doesn't work on mobile (do we need it?)
+- [ ] Mobile: Header image only shows my arm (im working on this. will think of a better solution)
+- [x] Mobile: Awkward breaking of text mid-paragraph (i think i fixed this?)
+- [x] Mobile: Copy email doesn't work on mobile (do we need it?) (removed on mobile)
 
 ### Feedback from reviewers
 

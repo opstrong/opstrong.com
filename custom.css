@@ -39,7 +39,15 @@ ul {
 	letter-spacing: 1px;
 }
 .btn-outline-light {
-	padding: .75rem 1.75rem
+	padding: .75rem 1.75rem;
+	background-color: #f8f9fa;
+	color: #212529;
+}
+@media (min-width: 768px) {
+	.btn-outline-light {
+		background-color: transparent;
+		color: #f8f9fa;
+	}
 }
 .btn-link {
 	color: #343a40;
@@ -53,13 +61,20 @@ ul {
 }
 /* HERO */
 .hero {
-	height: 90vh;
-	padding-top: 6rem;
+	height: 65vh;
+	padding-top: 1rem;
 	background-color: #000000; /* fallback if img doesnt load */
 	background-image: url(assets/chris_hero_color.jpg);
 	background-size: cover;
 	background-repeat: no-repeat;
-	background-position: center;
+	background-position: 60%;
+}
+@media (min-width: 768px) {
+	.hero {
+		height: 85vh;
+		padding-top: 6rem;
+		background-position: center;
+	}
 }
 .hero-copy {
 	color: #FFFFFF;
@@ -190,6 +205,23 @@ ul {
 	color: #FFFFFF;
 	background-color: #FF8686;
 }
+.link-email {
+	font-size: 1.25rem;
+}
+@media (min-width: 768px) {
+	.link-email {
+		font-size: 1.5rem;
+	}
+}
+.js-copy {
+	display: none;
+}
+@media (min-width: 768px) {
+	.js-copy {
+		display: inline-block;
+	}	
+}
+
 /* WHITESPACE */
 .mb-0   {margin-bottom: 0;}
 .mb-16  {margin-bottom: 1rem;}
