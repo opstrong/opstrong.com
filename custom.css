@@ -166,6 +166,24 @@ ul {
 .specialties-list li:last-of-type {
 	border-bottom: none;
 }
+/* QUOTES */
+.quote {
+	font-size: 1.5rem;
+}
+@media (min-width: 768px) {
+	.quote {
+		font-size: 2rem;
+	}	
+}
+.quote-img {
+	box-shadow: 16px 16px 0 0 #FF5252;
+}
+.quote-img-sm {
+	margin-bottom: 1rem;
+	width: 96px;
+	height: auto;
+	box-shadow: 8px 8px 0 0 #FF5252;
+}
 /* ICONS */
 .icon-check-red {
 	margin-left: .5rem;
@@ -174,6 +192,9 @@ ul {
 	margin-right: .5rem;
 }
 /* UTILITIES */
+.flex-center {
+	align-items: center;
+}
 .overlap {
 	margin-top: -4rem;
 }
@@ -191,6 +212,12 @@ ul {
 }
 .card-red .header-accent:after {
 	background-color: #FFFFFF;
+}
+.text-center {
+	text-align: center;
+}
+.border-bottom {
+	border-bottom: 1px solid rgba(0,0,0,.12);
 }
 .link-strong {
 	color: white;
@@ -227,6 +254,8 @@ ul {
 .mb-16  {margin-bottom: 1rem;}
 .mb-32  {margin-bottom: 2rem;}
 .mb-64  {margin-bottom: 4rem;}
+.pb-64  {padding-bottom: 4rem;}
+.mr-64  {margin-right: 4rem;}
 .mb-96  {margin-bottom: 6rem;}
 .mb-128 {margin-bottom: 8rem;}
 
