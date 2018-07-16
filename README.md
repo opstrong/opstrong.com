@@ -14,10 +14,10 @@ My personal coaching and consulting website: http://opstrong.com/
 #### Kevin Merritt
 - [x] I’d weave in “founders” and “entrepreneurs” as part of the leaders you can and have helped (in addition to VPs and CTOs).
 - [x] I find this statement confusing and too indirect: “I've discovered that my personal mission is to foster others' professional and personal flourishing.” I’m not sure it’s grammatically correct, which causes me to focus on the grammar more than the content. Perhaps this would work: “My passion is fostering the personal growth and professional development of others so they can flourish and succeed.”
-- [ ] For the “Interim CTO and VP of Engineering” service, I’d add something about managing the team, keeping commitments, delivering against the roadmap, boosting morale, preventing attrition, etc. A CTO or VP of Engineering doesn’t get to only cook up the technical strategy. Often when a change is needed, what the CEO wants in an interim CTO is someone who can steady and right the ship while a permanent leader is found.
+- [x] For the “Interim CTO and VP of Engineering” service, I’d add something about managing the team, keeping commitments, delivering against the roadmap, boosting morale, preventing attrition, etc. A CTO or VP of Engineering doesn’t get to only cook up the technical strategy. Often when a change is needed, what the CEO wants in an interim CTO is someone who can steady and right the ship while a permanent leader is found.
 
 #### Diego Oppenheimer
-- [ ] Regarding your first point - I might add something along the lines of when is the right time to bring you in or talk to you. Teasing out the situations might be an easier way to self-select. You kind of allude to it but thinking about engineering growth holistically and purposefully vs reactively is probably the biggest strength I would highlight.
+- [x] Regarding your first point - I might add something along the lines of when is the right time to bring you in or talk to you. Teasing out the situations might be an easier way to self-select. You kind of allude to it but thinking about engineering growth holistically and purposefully vs reactively is probably the biggest strength I would highlight.
 
 #### Ahmad AlNaimi
 - [ ] I'd consider adding/emphasizing two more values that I feel you bring to the table: Engineering empathy -- you're a great bridge between managers and engineers, understand the engineering mindset and able to rally technical teams behind common goals. Organizational cohesiveness -- you did a great job bridging engineering roadmap with sales requirements and priorities of other orgs
@@ -27,7 +27,7 @@ My personal coaching and consulting website: http://opstrong.com/
 - [x] It might make more sense to link your name to LinkedIn than “seasoned builder”
 - [x] The second paragraph in the ‘about me’ could use some smoothing out.  “Personal mission is to foster others professional and personal flourishing” sounds off - too flowery almost or not authentic. You use that phrase twice.  Is that what you want for your brand?  
 - [x] The second sentence in that paragraph is really long and has a lot of content but that might get lost because of its length and ().  
-- [ ] Under “services” listing “interim cto or vp engineering” in the middle seems like you’re angling for a job instead of a consulting service.  I might move it to the bottom and add something about helping them find their full time CTO while there.
+- [x] Under “services” listing “interim cto or vp engineering” in the middle seems like you’re angling for a job instead of a consulting service.  I might move it to the bottom and add something about helping them find their full time CTO while there.
 
 ### Add references
 
