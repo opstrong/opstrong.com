@@ -141,10 +141,7 @@ ul {
 .process-graphic,
 .people-graphic {
 	max-width: 96px;
-}
-.people-graphic {
-	margin-top: 8px;
-	margin-bottom: 8px;
+	height: 64px;
 }
 /* OFFERINGS */
 .services-list,
