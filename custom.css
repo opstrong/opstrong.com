@@ -38,17 +38,6 @@ ul {
 	font-family: 'Poppins', sans-serif;
 	letter-spacing: 1px;
 }
-.btn-outline-light {
-	padding: .75rem 1.75rem;
-	background-color: #f8f9fa;
-	color: #212529;
-}
-@media (min-width: 768px) {
-	.btn-outline-light {
-		background-color: transparent;
-		color: #f8f9fa;
-	}
-}
 .btn-link {
 	color: #343a40;
 }
@@ -61,19 +50,35 @@ ul {
 }
 /* HERO */
 .hero {
-	height: 65vh;
-	padding-top: 1rem;
+	text-align: center;
+	height: 85vh;
+	padding-top: 2rem;
 	background-color: #000000; /* fallback if img doesnt load */
-	background-image: url(assets/chris_hero_color.jpg);
+	background-image: url(assets/chris_hero_color_mobile.jpg);
 	background-size: cover;
 	background-repeat: no-repeat;
 	background-position: 60%;
 }
 @media (min-width: 768px) {
 	.hero {
+		text-align: left;
 		height: 85vh;
 		padding-top: 6rem;
+		background-image: url(assets/chris_hero_color.jpg);
 		background-position: center;
+	}
+}
+.hero-btn {
+	margin-top: 10rem;
+	padding: .75rem 1.75rem;
+	background-color: #f8f9fa;
+	color: #212529;
+}
+@media (min-width: 768px) {
+	.hero-btn {
+		margin-top: 0;
+		background-color: transparent;
+		color: #f8f9fa;
 	}
 }
 .hero-copy {
@@ -191,6 +196,10 @@ ul {
 /* UTILITIES */
 .flex-center {
 	align-items: center;
+}
+.p-short {
+	max-width: 660px;
+	margin: 0 auto;
 }
 .overlap {
 	margin-top: -4rem;
