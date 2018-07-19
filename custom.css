@@ -97,6 +97,7 @@ ul {
 	color: #212529;
 	background-color: #FFFFFF;
 	box-shadow: 8px 8px 16px 0 rgba(0,0,0,0.20);
+	border: 16px solid #FF5252;
 	padding: 2rem;
 }
 .card-red {
