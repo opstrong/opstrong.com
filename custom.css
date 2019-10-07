@@ -81,6 +81,18 @@ ul {
 		color: #f8f9fa;
 	}
 }
+.card-btn {
+	margin-top: 10rem;
+	padding: .75rem 1.75rem;
+	color: #212529;
+}
+@media (min-width: 768px) {
+	.card-btn {
+		margin-top: 0;
+		background-color: #FF5252;
+		color: #FFFFFF;
+	}
+}
 .hero-copy {
 	color: #FFFFFF;
 }
@@ -177,6 +189,10 @@ ul {
 	border-bottom: none;
 }
 /* QUOTES */
+.divider-bottom {
+	border-radius: 0;
+	border-bottom: 8px solid #FF5252;
+}
 .quote {
 	font-size: 1.5rem;
 }
@@ -206,7 +222,7 @@ ul {
 	align-items: center;
 }
 .p-short {
-	max-width: 660px;
+	max-width: 950px;
 	margin: 0 auto;
 }
 .overlap {
