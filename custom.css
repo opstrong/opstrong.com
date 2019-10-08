@@ -71,23 +71,24 @@ ul {
 .hero-btn {
 	margin-top: 10rem;
 	padding: .75rem 1.75rem;
-	background-color: #f8f9fa;
+	background-color: #FF5252;
 	color: #212529;
+	border-color: transparent; /* we could drop the btn-outline-light class on the button, but somehow this also incorporates the hover event, and this is beyond me */
 }
 @media (min-width: 768px) {
 	.hero-btn {
 		margin-top: 0;
-		background-color: transparent;
+		background-color: #FF5252;
 		color: #f8f9fa;
 	}
 }
-.card-btn {
+.cta-btn {
 	margin-top: 10rem;
 	padding: .75rem 1.75rem;
 	color: #212529;
 }
 @media (min-width: 768px) {
-	.card-btn {
+	.cta-btn {
 		margin-top: 0;
 		background-color: #FF5252;
 		color: #FFFFFF;

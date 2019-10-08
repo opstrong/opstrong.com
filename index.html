@@ -18,7 +18,7 @@
     <!-- Bootstrap CSS -->
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.1/css/bootstrap.min.css" integrity="sha384-WskhaSGFgHYWDcbwN70/dfYBj47jz9qbsMId/iRN3ewGhXQFZCSftd1LZCfmhktB" crossorigin="anonymous">
     <!-- Custom CSS -->
-    <link rel="stylesheet" type="text/css" href="custom.css?v=10062019">
+    <link rel="stylesheet" type="text/css" href="custom.css?v=10072019">
 
     <title>Chris Armstrong - Technical Strategy and Leadership Coach</title>
     <meta property="og:image" content="https://opstrong.com/assets/chris_hero_color.jpg" />
@@ -30,6 +30,7 @@
         <div class="hero-copy">
           <h3 class="mb-32">CHRIS ARMSTRONG</h3>
           <h1 class="hero-headline mb-32">Leadership Coaching for<br class="d-none d-md-block d-lg-block"> High-Performing Technical Teams</h1>
+          <a href="https://calendly.com/opstrong/discovery-call" target="_blank"><button class="btn btn-outline-light hero-btn">SCHEDULE A CALL</button></a>
         </div>
       </div>
     </div>
@@ -79,11 +80,8 @@
       <div id="contact" class="row mb-64">
           <div class="col-md-12">
             <div class="card-red">
-              <h2>Let's empower your team together!</h2>
-              <h3>Contact me: <a href="mailto:chris@opstrong.com" class="link-strong link-email">chris@opstrong.com</a><span class="contact">
-                <button type="button" class="btn btn-link btn-sm btn-copy js-tooltip js-copy" data-toggle="tooltip" data-placement="bottom" data-copy="chris@opstrong.com" title="Copy to clipboard">(CLICK TO COPY)
-                </button>
-              </span></h3>
+              <h2 class="mb-32">Let's empower your team together!</h2>
+              <a href="https://calendly.com/opstrong/discovery-call" target="_blank"><button class="btn btn-outline-light cta-btn">SCHEDULE A CALL</button></a>
             </div>
           </div>
         </div>
@@ -207,55 +205,5 @@
     <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.min.js" integrity="sha384-ZMP7rVo3mIykV+2+9J3UJ46jBk0WLaUAdn689aCwoqbBJiSnjAK/l8WvCWPIPm49" crossorigin="anonymous"></script>
     <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.1/js/bootstrap.min.js" integrity="sha384-smHYKdLADwkXOn1EmN1qk/HfnUcbVRZyYmZ4qpPea6sjB/pTJ0euyQp0Mk8ck+5T" crossorigin="anonymous"></script>
-    <!-- Copy email -->
-    <script type="text/javascript">
-      // COPY TO CLIPBOARD
-      // Attempts to use .execCommand('copy') on a created text field
-      // Falls back to a selectable alert if not supported
-      // Attempts to display status in Bootstrap tooltip
-      // ------------------------------------------------------------------------------
-
-      function copyToClipboard(text, el) {
-        var copyTest = document.queryCommandSupported('copy');
-        var elOriginalText = el.attr('data-original-title');
-
-        if (copyTest === true) {
-          var copyTextArea = document.createElement("textarea");
-          copyTextArea.value = text;
-          document.body.appendChild(copyTextArea);
-          copyTextArea.select();
-          try {
-            var successful = document.execCommand('copy');
-            var msg = successful ? 'Copied!' : 'Whoops, not copied!';
-            el.attr('data-original-title', msg).tooltip('show');
-          } catch (err) {
-            console.log('Oops, unable to copy');
-          }
-          document.body.removeChild(copyTextArea);
-          el.attr('data-original-title', elOriginalText);
-        } else {
-          // Fallback if browser doesn't support .execCommand('copy')
-          window.prompt("Copy to clipboard: Ctrl+C or Command+C, Enter", text);
-        }
-      }
-
-      $(document).ready(function() {
-        // Initialize
-        // ---------------------------------------------------------------------
-
-        // Tooltips
-        // Requires Bootstrap for functionality
-        $('.js-tooltip').tooltip();
-
-        // Copy to clipboard
-        // Grab any text in the attribute 'data-copy' and pass it to the
-        // copy function
-        $('.js-copy').click(function() {
-          var text = $(this).attr('data-copy');
-          var el = $(this);
-          copyToClipboard(text, el);
-        });
-      });
-    </script>
   </body>
 </html>
