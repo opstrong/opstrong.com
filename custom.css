@@ -80,16 +80,8 @@ ul {
 		border-color: transparent; /* we could drop the btn-outline-light class on the button, but somehow this also incorporates the hover event, and this is beyond me */
 	}
 }
-.cta-btn {
-	margin-top: 10rem;
+.info-btn {
 	padding: .75rem 1.75rem;
-	background-color: #FF5252;
-	color: #FFFFFF;
-}
-@media (min-width: 768px) {
-	.cta-btn {
-		margin-top: 1rem;
-	}
 }
 .hero-copy {
 	color: #FFFFFF;
@@ -102,6 +94,24 @@ ul {
 		font-size: 2.5rem;
 	}
 }
+.hero-contact {
+	margin-top: 5em;
+}
+.hero-contact li {
+	margin-bottom: 5px;
+}
+.cta-btn {
+	margin-top: 10rem;
+	padding: .75rem 1.75rem;
+	background-color: #FF5252;
+	color: #FFFFFF;
+}
+@media (min-width: 768px) {
+	.cta-btn {
+		margin-top: 1rem;
+	}
+}
+
 /* CARDS */
 .intro-card,
 .card-red {
