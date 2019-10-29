@@ -115,15 +115,10 @@ ul {
 	margin-bottom: 5px;
 }
 .cta-btn {
-	margin-top: 10rem;
+	margin-top: 1rem;
 	padding: .75rem 1.75rem;
 	background-color: #FF5252;
 	color: #FFFFFF;
-}
-@media (min-width: 768px) {
-	.cta-btn {
-		margin-top: 1rem;
-	}
 }
 
 /* CARDS */
