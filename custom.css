@@ -51,37 +51,51 @@ ul {
 /* HERO */
 .hero {
 	text-align: center;
-	height: 85vh;
 	padding-top: 2rem;
-	background-color: #000000; /* fallback if img doesnt load */
+	padding-bottom: 6rem;
+	background-color: #72462000; /* fallback if img doesnt load */
 	background-image: url(assets/chris_hero_color_mobile.jpg);
+	background-image: url(assets/chris_hero_color_mobile.jpg), linear-gradient(#72462000, #64534569, #705742db, #2c2015db);
 	background-size: cover;
 	background-repeat: no-repeat;
 	background-position: 60%;
+	background-blend-mode: multiply;
 }
 @media (min-width: 768px) {
 	.hero {
 		text-align: left;
+		background-color: black;
 		height: 85vh;
 		padding-top: 6rem;
+		padding-bottom: 0;
 		background-image: url(assets/chris_hero_color.jpg);
 		background-position: center;
+		background-blend-mode: unset;
 	}
 }
+.hero-services {
+	margin-top: 12rem;
+}
+@media (min-width: 768px) {
+	.hero-services {
+		margin-top: 0;
+	}
+}
+.hero button {
+	margin-bottom: 1rem;
+  padding: .5rem 1rem;
+}
 .hero-btn {
-	margin-top: 10rem;
-	padding: .75rem 1.75rem;
 	background-color: #FF5252;
 	color: #f8f9fa;
 }
 @media (min-width: 768px) {
+	.hero button {
+		padding: .75rem 1.75rem;
+	}
 	.hero-btn {
-		margin-top: 0;
 		border-color: transparent; /* we could drop the btn-outline-light class on the button, but somehow this also incorporates the hover event, and this is beyond me */
 	}
-}
-.info-btn {
-	padding: .75rem 1.75rem;
 }
 .hero-copy {
 	color: #FFFFFF;
@@ -101,15 +115,10 @@ ul {
 	margin-bottom: 5px;
 }
 .cta-btn {
-	margin-top: 10rem;
+	margin-top: 1rem;
 	padding: .75rem 1.75rem;
 	background-color: #FF5252;
 	color: #FFFFFF;
-}
-@media (min-width: 768px) {
-	.cta-btn {
-		margin-top: 1rem;
-	}
 }
 
 /* CARDS */
