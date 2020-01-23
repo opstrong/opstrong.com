@@ -50,20 +50,18 @@ ul {
 }
 /* HERO */
 .hero {
-	text-align: center;
 	padding-top: 2rem;
 	padding-bottom: 6rem;
-	background-color: #72462000; /* fallback if img doesnt load */
-	background-image: url(assets/chris_hero_color_mobile.jpg);
-	background-image: url(assets/chris_hero_color_mobile.jpg), linear-gradient(#72462000, #64534569, #705742db, #2c2015db);
-	background-size: cover;
+	background-color: #72462000;
+	background-image: url(assets/chris_hero_color.jpg);
+	background-image: url(assets/chris_hero_color.jpg);
 	background-repeat: no-repeat;
-	background-position: 60%;
+	background-position: 50%;
+	background-size: cover;
 	background-blend-mode: multiply;
 }
 @media (min-width: 768px) {
 	.hero {
-		text-align: left;
 		background-color: black;
 		height: 85vh;
 		padding-top: 6rem;
@@ -73,12 +71,12 @@ ul {
 		background-blend-mode: unset;
 	}
 }
-.hero-services {
-	margin-top: 12rem;
+.hero-services, .hero-contact, .hero-contact-alt {
+	display: none;
 }
 @media (min-width: 768px) {
-	.hero-services {
-		margin-top: 0;
+	.hero-services, .hero-contact, .hero-contact-alt {
+		display: block
 	}
 }
 .hero button {
@@ -101,11 +99,13 @@ ul {
 	color: #FFFFFF;
 }
 .hero-headline {
-	font-size: 1.75rem;
+	font-size: 1.25rem;
+	margin-right: 6rem;
 }
 @media (min-width: 1200px) {
 	.hero-headline {
 		font-size: 2.5rem;
+		margin-right: 0;
 	}
 }
 .cta-btn {
